@@ -1,0 +1,323 @@
+/* Tablet and smaller */
+
+@media screen and (max-width: 768px) {
+  .padding-header {
+    padding-top: 2rem;
+  }
+
+  #hero {
+    display: none;
+  }
+
+  #navbar ul {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  #navbar ul li:nth-child(4),
+  #navbar ul li:nth-child(5) {
+    display: none;
+  }
+
+  #features {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+  #showcase .showcase-content {
+    padding-bottom: 30px;
+  }
+
+  /* Home info */
+  #home-info .info-content {
+    padding: 3rem;
+    padding-top: 4.5rem;
+  }
+
+  /* Home Specials */
+
+  #home-info .specials {
+    padding-top: 7rem;
+  }
+
+  /* About */
+
+  #testimonials .testimonial {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .overlay-tom {
+    height: 55rem;
+  }
+
+  #testimonials {
+    height: 55rem;
+  }
+
+
+  .l-heading {
+    text-align: center;
+  }
+
+  /* Specials */
+
+  #content {
+    width: 80vw;
+    height: 31vw;
+  }
+
+  #gallery_img {
+    width: 80vw;
+    height: 31vw;
+  }
+
+  .gallery_img_style {
+    width: 80vw;
+    height: 31vw;
+  }
+
+  #lefty,
+  #righty,
+  #play,
+  #pause {
+    top: 15vw;
+    margin-top: -23px;
+  }
+
+  #play,
+  #pause {
+    margin-top: -19px;
+  }
+
+  #main {
+    background: #333;
+    width: 100%;
+    height: 53vw;
+  }
+
+  #for-you .container .card-pub {
+    height: 18rem;
+    grid-template-columns: 40% 60%;
+  }
+
+  #for-you .container .card-pub img {
+    height: 18rem;
+  }
+
+  #contact-form {
+    margin-top: 4rem;
+  }
+
+
+  /* Footer */
+  #main-footer .contact ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+
+
+
+  @media screen and (max-width: 420px) {
+    .menu-wrap {
+      display: block;
+    }
+
+    #hamburger-hero {
+      display: block;
+    }
+
+    #navbar {
+      display: none;
+    }
+
+    .padding-header {
+      padding-top: 0rem;
+    }
+
+    #navbar ul {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    #navbar ul li a {
+      padding: 5px;
+      border-bottom: #444 dotted 1px;
+    }
+
+    #showcase .showcase-content {
+      padding-top: 30vh;
+    }
+
+    #showcase .showcase-content h1 {
+      font-size: 2rem;
+    }
+
+    #showcase .showcase-content p {
+      font-size: 1rem;
+    }
+
+    #home-info .info-img {
+      display: none;
+    }
+
+    #home-info {
+      grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    #about-info .container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      height: 100%
+    }
+
+    #about-info .info-left {
+      padding-right: 0;
+    }
+
+    #about-info .info-right {
+      display: none;
+    }
+
+    #testimonials h1 {
+
+      padding-bottom: 30px;
+      font-size: 1.5rem;
+    }
+
+    #testimonials .testimonial {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 2rem;
+    }
+
+    .overlay-tom {
+
+      height: 100%;
+    }
+
+    #testimonials {
+      height: 100%;
+    }
+  }
+
+  #main {
+    height: 100%;
+  }
+
+  #main .container:first-child {
+    padding-bottom: 3rem;
+  }
+
+  #lefty,
+  #righty,
+  #play,
+  #pause {
+    top: 15vw;
+    margin-top: -13px;
+  }
+
+  #play,
+  #pause {
+    margin-top: -9px;
+  }
+
+  #for-you .container .card-pub {
+    height: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #for-you .container .card-pub p {
+    width: 78vw;
+
+  }
+
+  #contact-form {
+    margin-top: 0;
+    padding-top: 5rem;
+  }
+
+  /* Footer */
+  #main-footer .contact ul {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  #showcase .showcase-content {
+    padding-top: 25vh;
+  }
+
+  #home-info .info-content {
+    padding-top: 3rem;
+  }
+
+  #home-info .info-content:hover {
+    transform: scale(1);
+  }
+
+  #features .box {
+    height: 35rem;
+  }
+
+  #for-you .container .card-pub p {
+    width: 74vw;
+  }
+}
+
+@media screen and (max-height: 425px) {
+
+  .padding-header {
+    padding-top: 8rem !important;
+
+  }
+
+  #navbar ul li {
+    font-size: 0.9rem;
+    ;
+  }
+
+  #showcase {
+    height: 110vh;
+  }
+
+  #showcase .overlay {
+    height: 110vh;
+  }
+
+  #showcase .showcase-content h1 {
+    padding-bottom: 0;
+  }
+
+  #showcase .showcase-content .lead {
+    font-size: 0.8rem;
+    padding-bottom: 0.5;
+  }
+
+  #home-info .info-content {
+    padding-top: 2.2rem;
+  }
+
+  #home-info .info-content:hover {
+    transform: scale(1);
+  }
+
+  .py-5 {
+    padding-top: 0
+  }
+
+  #for-you .container .card-pub p {
+    width: 86vw;
+  }
+
+  #for-you .container .card-pub img {
+    max-height: 13rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  #for-you .container .card-pub img {
+    height: auto;
+    width: 100%;
+  }
+
+
+}

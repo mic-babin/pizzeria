@@ -1,0 +1,37 @@
+/* Laptop */
+
+@media screen and (max-width: 1300px) {
+  .container {
+    max-width: 960px;
+  }
+
+  #navbar ul li a {
+    padding: 20px 0px;
+  }
+
+  #home-info .info-content {
+    padding: 5.5rem 7rem;
+  }
+}
+
+/* Ipad Pro and small laptop */
+
+@media screen and (max-width: 1100px) {
+
+  #home-info .info-content {
+
+    height: 35rem;
+  }
+
+  #home-info {
+    height: 35rem;
+  }
+
+  #home-info .specials {
+    padding-top: 7rem;
+  }
+
+  #features .box {
+    padding-top: 4rem;
+  }
+}

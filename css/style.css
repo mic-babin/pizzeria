@@ -1,0 +1,283 @@
+/* Showcase */
+#showcase {
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+#showcase .overlay {
+  background-color: rgba(51, 51, 51, 0.35);
+  height: 100vh;
+}
+
+#showcase .showcase-content {
+  color: white;
+  text-align: center;
+  padding-top: 35vh;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+  text-shadow: 0 1px 7px rgba(0, 0, 0, 1);
+  font-family: 'Fugaz One', cursive;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+#showcase .showcase-content p {
+  color: #f4f4f4;
+  font-weight: bold;
+  padding-bottom: 20px;
+  line-height: 1.7em;
+  text-shadow: 0 1px 7px rgba(0, 0, 0, 1);
+}
+
+/* Home info */
+#home-info {
+  height: 30rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#home-info .info-img {
+  background: url('../img/history.jpg') no-repeat top left/cover;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+
+  height: 30rem;
+  text-align: center;
+  padding: 7rem 10rem;
+  overflow: hidden;
+  z-index: 0;
+  transition: 0.4s;
+
+}
+
+#home-info .info-content:hover {
+  transform: scale(1.2);
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+#home-info .info-content h2 {
+  font-size: 2rem;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+/* Features */
+#features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#features .box {
+  height: 30rem;
+  padding: 5rem;
+  text-align: center;
+  font-size: 1.2rem
+}
+
+#features .box i {
+  margin-bottom: 2rem;
+}
+
+#features .box .process-icon {
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+  padding: 3rem;
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+  position: relative;
+  transition: all 0.4s;
+}
+
+#features .box .process-icon:hover {
+  background: #333;
+  color: #fff;
+  padding: 3.5rem;
+  width: 11rem;
+  height: 11rem;
+  margin-top: -0.5rem;
+}
+
+/* Home specials */
+#home-info .specials {
+  color: white !important;
+}
+
+#home-info .specials-img {
+  background: url('../img/specials.jpg') no-repeat 50% 0%/cover;
+  min-height: 100%;
+}
+
+
+/* Menu */
+#menu {
+  height: 90vh
+}
+
+#menu object {
+  padding-top: 105px;
+}
+
+/* About Info */
+
+#about-info .container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+#about-info .info-right {
+  background: url('../img/photo-2.jpg') no-repeat top center/cover;
+  min-height: 100%;
+  padding-left: 2rem;
+}
+
+#about-info .info-left {
+  min-height: 100%;
+  text-align: justify;
+  padding-right: 2rem;
+}
+
+/* Testimonials */
+.overlay-tom {
+  background-color: rgba(51, 51, 51, 0.35);
+  height: 40rem;
+}
+
+#testimonials {
+  height: 40rem;
+  background: url('../img/test-bg.jpg') no-repeat 10% center/cover;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#testimonials h1 {
+  color: #f4f4f4;
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 3rem;
+}
+
+#testimonials .testimonial {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+}
+
+#testimonials .testimonial ul {
+  list-style: none;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  background: rgba(204, 204, 204, 0.8);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+#testimonials .testimonial p {
+  border-radius: 5px;
+  padding: 0.8rem;
+  background: rgba(204, 204, 204, 0.8);
+}
+
+
+#testimonials .testimonial img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+/* Contact form */
+#contact-form {
+  margin-top: 30px;
+}
+
+#contact-form p {
+  color: white;
+  font-weight: bold;
+}
+
+#contact-form h1 span {
+  color: white;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+.map {
+  height: 50vh;
+}
+
+
+/* Specials: For you */
+#for-you .container h1 {
+  text-align: center;
+  padding-bottom: 3rem;
+  font-size: 3rem;
+}
+
+#for-you .container h1 span {
+  color: white;
+}
+
+#for-you .container .card-pub {
+  height: 13rem;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  overflow: hidden;
+  border-radius: 1rem;
+  grid-gap: 0
+}
+
+#for-you .container .card-pub p {
+  text-align: justify;
+}
+
+#for-you .container .card-pub img {
+  height: 13rem;
+}
+
+#for-you .container .card-pub .pub-text {
+  padding: 3rem;
+  margin: -1.6rem;
+}

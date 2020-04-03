@@ -1,0 +1,101 @@
+/* Navbar */
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-transform: uppercase;
+  z-index: 1
+}
+
+#navbar ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+#navbar ul li {
+  position: relative;
+  margin: 1rem 0.4rem;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px 5px;
+  text-align: center;
+  transition: 0.4s;
+  border-top: 3px solid rgba(255, 255, 255, 0);
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  color: red;
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+}
+
+/* Hide Nested ul by default */
+
+#navbar ul li ul {
+  display: none;
+}
+
+
+
+/* Nested dropdown Show */
+
+#navbar ul li:hover ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 150px;
+  margin-left: -1rem;
+}
+
+
+#navbar ul li:hover ul li {
+  background: #f4f4f4;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin: 0rem;
+}
+
+/* Hero */
+#hero {
+  background: #fff;
+  text-align: center;
+  height: 10rem;
+  width: 10rem;
+  margin-left: -5rem;
+  border-radius: 0 0 50% 50%;
+  position: fixed;
+  top: 0rem;
+  left: 50%;
+  z-index: 2;
+  filter: drop-shadow(0 5px 3px rgba(0, 0, 0, 0.3));
+  transition: 0.4s
+}
+
+#hero img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#hero:hover {
+  transform: scale(1.2) translateY(0.85rem);
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
+
+#main-footer .contact ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+}
